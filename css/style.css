@@ -18,7 +18,7 @@
   margin: 0 auto;
   height: 200px;
   width: 100%;
-  border-style: solid;
+  /*border-style: solid;*/
 }
 
 .clothes {
@@ -26,7 +26,7 @@
   padding-top: 50px;
   height: 200px;
   width: 100%;
-  border-style: solid;
+  /*border-style: solid;*/
 }
 
 .current-temp {
@@ -43,9 +43,9 @@
   position: relative;
   height: 100%;
   width: 200px;
-  border-style: solid;
+  /*border-style: solid;
   border-radius: 30px;
-  border-color: orange;
+  border-color: orange;*/
   margin: 0 auto;
 }
 
@@ -53,9 +53,9 @@
   position: relative;
   height: 100%;
   width: 200px;
-  border-style: solid;
+  /*border-style: solid;
   border-radius: 30px;
-  border-color: orange;
+  border-color: orange;*/
   margin: 0 auto;
 }
 
@@ -63,9 +63,9 @@
   position: relative;
   height: 100%;
   width: 200px;
-  border-style: solid;
+  /*border-style: solid;
   border-radius: 30px;
-  border-color: red;
+  border-color: red;*/
   margin: 0 auto;
 }
 
