@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Weather</title>
+
+    <!-- Main CSS -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- Weather Icon CSS -->
+    <link href="css/weather-icons.css" rel="stylesheet">
+
+    <!-- Weather Icon mappings to Open Weather -->
+    <link href="css/wi-owm.scss" re
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+    integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+  </head>
+  <body>
+    <div class="container">
+      <div class="search">
+        <div class="col-xs-8 col-xs-offset-2 col-sm-4 col-sm-offset-4">
+          <div class="input-group">
+            <input id="zip" type="text" class="form-control" placeholder="Enter Zip Code..." value="">
+            <span class="input-group-btn">
+              <button class="btn btn-default glyphicon glyphicon-search" type="button"></button>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="city text-center"></div>
+    <div class="current">
+      <p class="text-center weather-info">Current Weather</p>
+      <div class="row">
+        <i class="wi col-md-1 col-md-offset-5 col-xs-5 col-xs-offset-2"></i>
+        <h2 class="current-temp col-md-2 col-xs-5"></h2>
+      </div>
+    </div>
+    <div class="clothes">
+      <div class="row">
+        <div class="col-xs-6 col-xs-offset-3 col-sm-2 item">
+          <div class="outer-right">
+            <div id="1" class="overcolor"></div>
+            <div class="co">
+              <img src="images/parka.jpg" class="image img-circle">
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-6 col-xs-offset-3 col-sm-2 item">
+          <div class="inner">
+            <div id="2" class="overcolor"></div>
+            <div class="co">
+              <img src="images/pullover.jpg" class="image img-circle">
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-6 col-xs-offset-3 col-sm-2 item">
+          <div class="inner">
+            <div id="3" class="overcolor"></div>
+            <div class="co">
+              <img src="images/sweatshirt.jpg" class="image img-circle">>
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-6 col-xs-offset-3 col-sm-2 item">
+          <div class="outer-left">
+            <div id="4" class="overcolor"></div>
+            <div class="co">
+              <img src="images/crew.jpg" class="image img-circle">
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <!-- jQuery (necessary for Bootstraps JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+    <!-- Open Weather API call and handling -->
+    <script src="js/weather.js"></script>
+  </body>
+</html>
